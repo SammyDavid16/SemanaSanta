@@ -1,0 +1,110 @@
+.titulo{
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+    background-color:rgb(214, 143, 207);
+    padding-top: 10px;
+}
+
+.subtitulo{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    padding: 10px;
+    color: rgb(133, 63, 126);
+}
+.cuerpo{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(237, 228, 225);
+    text-align: justify;
+    padding: 20px;
+}
+
+.dias{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    background-color:rgb(201, 162, 197);
+    border: 2px solid cornflowerblue;
+    
+}
+.dias a{
+    text-decoration: none;
+    color: rgb(133, 63, 126);
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0.5em 1.2em;
+    background: rgba(155, 44, 44, 0);
+    transition: all 1.5s ease;
+    position: relative;
+}
+.dias a:hover{
+    background-color: rgb(129, 33, 97);
+    transition: 0.5s;
+}
+aside {
+    width: 20%;
+    padding-left: 2px;
+    margin-left: 1px;
+    float:left;
+    font-style: italic;
+    text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(201, 162, 197);
+    margin: 2em;
+    border: 2px solid cornflowerblue;
+    border-radius: 10px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.25);
+  }
+
+.web a{
+    text-decoration: none;
+}
+div img{
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+.pie{
+    display:flex;
+    padding-bottom: 10px;
+    font-size: small;
+    font-style: italic;
+    background-color:palevioletred;
+}
+.social{
+    position: fixed;
+    right: 0;
+    top: 35%;
+    font-size: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 100;
+}
+.icon{
+    color: white;
+    text-decoration: none;
+    padding: 2rem;
+    display: flex;
+    transition: all 0.5s;
+}
+.icon-face{
+    background: #2E406E;
+    border-radius: 1rem 0 0 0;
+}
+.icon-tw{
+    background: #339dc5;
+}
+.icon-yt{
+    background: #e83280;
+}
+.icon-inst{
+    background: #3f60a5;
+    border-radius: 0 0 0 1rem;
+}
+.icon:hover {
+    padding-right: 5rem;
+    border-radius: 1rem 0 0 1rem;
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.45)
+
+}
