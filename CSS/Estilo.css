@@ -26,6 +26,7 @@
     padding: 30px;
     background-color:rgb(201, 162, 197);
     border: 2px solid cornflowerblue;
+    border-radius: 10px;
     
 }
 .dias a{
@@ -41,11 +42,12 @@
 .dias a:hover{
     background-color: rgb(129, 33, 97);
     transition: 0.5s;
+    color: rgb(225, 228, 231);
 }
 aside {
     width: 20%;
-    padding-left: 2px;
-    margin-left: 1px;
+    padding-left: 10px;
+    margin-left: 5px;
     float:left;
     font-style: italic;
     text-align: justify;
@@ -59,17 +61,36 @@ aside {
 
 .web a{
     text-decoration: none;
+    justify-content: space-around;
+    transition: all 1.5s ease;
+    position: relative;
 }
+.web a:hover{
+    background-color: rgb(129, 33, 97);
+    transition: 0.5s;
+    color: rgb(225, 228, 231);
+}
+
 div img{
-    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.25);
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.45);
     border-radius: 10px;
+    
 }
+#imagenes:hover {
+    transform: scale(1.1);
+    transition: transform 2s;
+}
+
 .pie{
     display:flex;
     padding-bottom: 10px;
     font-size: small;
     font-style: italic;
     background-color:palevioletred;
+}
+
+.pie p{
+    color: blueviolet;
 }
 .social{
     position: fixed;
@@ -84,7 +105,7 @@ div img{
 .icon{
     color: white;
     text-decoration: none;
-    padding: 2rem;
+    padding: 1.2rem;
     display: flex;
     transition: all 0.5s;
 }
@@ -103,8 +124,14 @@ div img{
     border-radius: 0 0 0 1rem;
 }
 .icon:hover {
-    padding-right: 5rem;
+    padding-right: 4rem;
     border-radius: 1rem 0 0 1rem;
     box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.45)
 
+}
+
+html{
+    margin-left: 3.5%;
+    margin-right: 3.5%;
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/54283b95-9dd2-4197-8c4f-5c7cc84d57b6/de8tbkv-6273d207-2978-4ba4-903f-f593808f8312.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzU0MjgzYjk1LTlkZDItNDE5Ny04YzRmLTVjN2NjODRkNTdiNlwvZGU4dGJrdi02MjczZDIwNy0yOTc4LTRiYTQtOTAzZi1mNTkzODA4ZjgzMTIuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.mmxS-GRJ9uG-9U9UPUFfxky0CKTNcFo7JbQtE53UQBI)
 }
